@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "./node_modules/.bin/webpack-dev-server --content-base --inline --hot",
-    "build" : "webpack -p"
+    "build": "webpack -p"
   },
   "dependencies": {
     "axios": "^0.15.2",
     "babel-core": "^6.18.2",
+    "babel-eslint": "^7.2.3",
     "babel-loader": "^6.2.7",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-react-html-attrs": "^2.0.0",
@@ -32,5 +33,9 @@
     "webpack-dev-server": "^1.16.2"
   },
   "author": "Saurabh Mhatre",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-plugin-react": "^7.1.0"
+  }
 }

@@ -1,12 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom"
+import React from 'react';
 
-export default class App extends React.Component{
-  render(){
-    return (
-      <div>
+export default class App extends React.Component {
+    render() {
+        return (
+            <div>
       UserList Component
-      </div>
-    )
-  }
+            </div>
+        );
+    }
 }

@@ -1,0 +1,51 @@
+{
+    "rules": {
+        "camelcase": [2, { "properties": "always" }],
+        "quotes": [2, "single"],
+        "curly": 2,
+        "eqeqeq": [2, "always"],
+        "linebreak-style": [2, "unix"],
+        "semi": [2, "always"],
+        "comma-dangle": [2, "always-multiline"],
+        "space-infix-ops": 2,
+        "space-before-blocks": 2,
+        "comma-spacing": [2, { "before": false, "after": true }],
+        "keyword-spacing": [2, { "before": true, "after": true }],
+        "space-unary-ops": [2, {
+             "words": true,
+             "nonwords": false
+        }],
+        "indent": ["error", 4, {
+            "SwitchCase": 1,
+            "ObjectExpression": 1
+        }],
+        "no-array-constructor": 2,
+        "no-new-object": 2,
+        "no-cond-assign": 2,
+        "no-fallthrough": 2,
+        "no-trailing-spaces": 2,
+        "no-lonely-if": 2,
+        "no-multi-assign": 2,
+        "spaced-comment": [2, "always"],
+        "brace-style": [2, "1tbs", {
+            "allowSingleLine": true
+        }],
+        "newline-per-chained-call": [2, { "ignoreChainWithDepth": 2 }],
+        "newline-after-var": [2, "always"],
+        "newline-before-return": 2,
+        "lines-around-comment": [1, {
+            "beforeBlockComment": true,
+            "beforeLineComment": true,
+            "allowBlockStart": true,
+            "allowBlockEnd": true,
+            "allowObjectStart": true,
+            "allowObjectEnd": true,
+            "allowArrayStart": true,
+            "allowArrayEnd": true
+        }],
+        "no-multiple-empty-lines": 2,
+        "no-unused-vars": [2, { "args": "none" }],
+        "object-curly-spacing": [2, "always"]
+    },
+    "extends": ["eslint:recommended"]
+}

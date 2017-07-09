@@ -1,9 +1,10 @@
 export function setText(text) {
-    console.log('RUN')
+    console.log('RUN');
+
     return {
-        type: "SET_TEXT",
+        type: 'SET_TEXT',
         payload: {
-            text: text
-        }
-    }
+            text: text,
+        },
+    };
 }

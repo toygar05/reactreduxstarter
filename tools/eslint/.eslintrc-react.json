@@ -1,0 +1,30 @@
+{
+    "plugins": ["react"],
+    "extends": "plugin:react/recommended",
+    "rules": {
+        "jsx-quotes": [2, "prefer-double"],
+        "react/display-name": 0,
+        "react/jsx-uses-react": 2,
+        "react/jsx-uses-vars": 2,
+        "react/react-in-jsx-scope": 2,
+        "react/jsx-wrap-multilines": 2,
+        "react/no-deprecated": 1,
+        "react/no-find-dom-node": 1,
+        "react/no-string-refs": 1,
+        "react/prefer-es6-class": [1, "always"],
+        "react/jsx-pascal-case": 2,
+        "react/jsx-closing-bracket-location": [2, { "selfClosing": "line-aligned", "nonEmpty": "line-aligned" }],
+        "react/jsx-indent-props": [2, 4],
+        "react/jsx-max-props-per-line": [1, { "maximum": 3 }],
+        "react/jsx-space-before-closing": 2,
+        "react/jsx-equals-spacing": [2, "never"],
+        "react/jsx-handler-names": [1, {
+            "eventHandlerPrefix": "_handle",
+            "eventHandlerPropPrefix": "on"
+        }],
+        "react/jsx-indent": [2, 4],
+        "react/jsx-curly-spacing": [2, "never"],
+        "react/jsx-boolean-value": [2, "always"],
+        "react/sort-comp": 2
+    }
+}
