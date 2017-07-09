@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 
 import UserList from './UserList.js';
-import { setText } from '../actions/UserActions';
+import { setText } from '../actions/ToDoActions';
 
 @connect((store) => {
     console.log('CONNECT,', store.user);

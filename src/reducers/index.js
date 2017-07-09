@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import user from './userReducer';
+import toDo from './toDoReducer';
 
 export default combineReducers({
-    user,
+    toDo,
 });
